@@ -1,0 +1,24 @@
+Steps on Writing your website
+
+1. HTML(index.html), 
+2. Create Three Folder
+	- App (Js, scss)
+	- dist
+	- images
+
+	2.1 Js (folder)
+		-> script.js
+	2.1 scss (folder)
+		-> _animations.scss
+		-> _article.scss
+		-> _feature.scss
+		-> _footer.scss
+		-> _global.scss
+		-> _header.scss
+		-> _hero.scss
+		-> _mixins.scss
+		-> _variables.scss
+		-> _style.scss
+		
+
+Note:- Don't Stop Trying!!!
