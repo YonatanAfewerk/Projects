@@ -1,0 +1,44 @@
+
+1.  Design Problem - Student management system
+
+2.  List all the information that is needed to track the problems
+            - Address
+                    Email : (string)
+                    Phone Number : (int)
+                    Center : (string)
+
+            - Person
+                    First Name : (string)
+                    Last Name : (string)
+                    Dob : (date)
+
+            - student
+                    Id No : (string)
+
+            - course
+                    Course Name : (string)
+                    Course code : (string)
+                    Credit hours : (int)
+                    ECTS : (int)
+                    contact hours : (float)
+                    Tutorial hours : (float)
+
+            - instructor 
+                    Course Teaching : (string)
+
+            - Grade
+                    Term
+                        per course Mark: (float)
+                        per course Char Grade: (char)
+
+                    Year
+                        per term : (float)
+                        per term Char Grade: (char)
+                    CGPA
+                        per year : (float)
+                        per year Char Grade: (char)
+
+            - Enrol 
+                    -Status : (string)
+
+3. Design the front-end with Figma
