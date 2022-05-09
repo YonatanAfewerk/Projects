@@ -1,0 +1,31 @@
+html {
+    font-size: 100%;
+    /* lets the user control the zoom level in the browser */
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: revert;
+}
+
+// FlexBox Styles 
+.flex {
+    display: flex;
+    &-jc-sb {
+        justify-content: space-between;
+    }
+    &-js-c {
+        justify-content: center;
+    }
+    &-ai-c {
+        align-items: center;
+    }
+}

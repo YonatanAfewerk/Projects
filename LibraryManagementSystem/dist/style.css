@@ -1,0 +1,75 @@
+html {
+  font-size: 100%;
+  /* lets the user control the zoom level in the browser */
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: revert;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-jc-sb {
+  justify-content: space-between;
+}
+
+.flex-js-c {
+  justify-content: center;
+}
+
+.flex-ai-c {
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 23px;
+  color: #6e8c75;
+  padding: 5px 90px;
+}
+
+.lo {
+  font-size: 20px;
+  border-radius: 3px;
+  padding: 1px 4px 1px 3.5px;
+  background-color: #6e8c75;
+  color: white;
+}
+
+.links {
+  padding: 5px 90px;
+}
+
+.hero {
+  text-align: center;
+}
+
+.Title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #6e8c75;
+  margin: 80px 0 20px 0;
+}
+
+h4 {
+  font-weight: normal;
+  list-style: 1px;
+  margin: 0;
+  color: #6e8c75;
+}
+
+.Button {
+  margin: 20px;
+}
+/*# sourceMappingURL=style.css.map */
