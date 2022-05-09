@@ -65,8 +65,8 @@ body {
 h4 {
   font-weight: normal;
   font-size: 12px;
-  list-style: 1px;
   margin: 0;
+  padding: 5px 15px 5px 15px;
   color: #6e8c75;
 }
 
