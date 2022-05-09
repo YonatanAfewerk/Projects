@@ -64,12 +64,44 @@ body {
 
 h4 {
   font-weight: normal;
+  font-size: 12px;
   list-style: 1px;
   margin: 0;
   color: #6e8c75;
 }
 
-.Button {
+Button {
   margin: 20px;
+  cursor: pointer;
+  padding: 10px 24px;
+  margin: 34px 5px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.button1 {
+  background-color: white;
+  border: 2px solid #5f7261;
+  color: #5f7261;
+}
+
+.button2 {
+  background-color: #5f7261;
+  border: 2px solid #5f7261;
+  color: white;
+}
+
+.button1:hover {
+  background-color: #5f7261;
+  border: 2px solid #5f7261;
+  color: white;
+  transition: 0.12s ease-in-out;
+}
+
+.button2:hover {
+  background-color: white;
+  border: 2px solid #5f7261;
+  color: #5f7261;
+  transition: 0.2s ease-in-out;
 }
 /*# sourceMappingURL=style.css.map */

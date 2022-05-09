@@ -11,11 +11,43 @@
 
 h4 {
     font-weight: normal;
+    font-size: 12px;
     list-style: 1px;
     margin: 0;
     color: $secgreen
 }
 
-.Button {
+Button {
     margin: 20px;
+    cursor: pointer;
+    padding: 10px 24px;
+    margin: 34px 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.button1 {
+    background-color: white;
+    border: 2px solid $maingreen;
+    color: $maingreen;
+}
+
+.button2 {
+    background-color: $maingreen;
+    border: 2px solid $maingreen;
+    color: white;
+}
+
+.button1:hover {
+    background-color: $maingreen;
+    border: 2px solid $maingreen;
+    color: white;
+    transition: 0.12s ease-in-out;
+}
+
+.button2:hover {
+    background-color: white;
+    border: 2px solid $maingreen;
+    color: $maingreen;
+    transition: 0.2s ease-in-out;
 }

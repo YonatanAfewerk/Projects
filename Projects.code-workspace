@@ -7,10 +7,11 @@
 	"settings": {
 		"liveSassCompile.settings.formats": [
 
+
 			{
 				"format": "expanded",
 				"extensionName": ".css",
-				"savePath": "/LibraryManagementSystem/dist"
+				"savePath": "/dist"
 			}
 		],
 		"liveServer.settings.port": 5501
