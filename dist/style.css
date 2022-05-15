@@ -19,23 +19,26 @@ body {
 .flex {
   display: flex;
 }
-
 .flex-jc-sb {
   justify-content: space-between;
 }
-
 .flex-js-c {
   justify-content: center;
 }
-
 .flex-ai-c {
   align-items: center;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
 }
 
 .logo {
   font-weight: bold;
   font-size: 25px;
-  color: #6e8c75;
+  color: hsl(134deg, 12%, 49%);
   padding: 5px 90px;
 }
 
@@ -43,7 +46,7 @@ body {
   font-size: 20px;
   border-radius: 3px;
   padding: 1px 4px 1px 3.5px;
-  background-color: #6e8c75;
+  background-color: hsl(134deg, 12%, 49%);
   color: white;
 }
 
@@ -58,7 +61,7 @@ body {
 .Title {
   font-size: 40px;
   font-weight: bold;
-  color: #6e8c75;
+  color: hsl(134deg, 12%, 49%);
   margin: 80px 0 20px 0;
 }
 
@@ -67,10 +70,11 @@ h4 {
   font-size: 12px;
   margin: 0;
   padding: 5px 15px 5px 15px;
-  color: #6e8c75;
+  color: hsl(134deg, 12%, 49%);
 }
 
 Button {
+  box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.29);
   margin: 20px;
   cursor: pointer;
   padding: 10px 24px;
@@ -81,27 +85,30 @@ Button {
 
 .button1 {
   background-color: white;
-  border: 2px solid #5f7261;
-  color: #5f7261;
+  border: 2px solid hsl(127deg, 9%, 41%);
+  color: hsl(127deg, 9%, 41%);
 }
 
 .button2 {
-  background-color: #5f7261;
-  border: 2px solid #5f7261;
+  background-color: hsl(127deg, 9%, 41%);
+  border: 2px solid hsl(127deg, 9%, 41%);
   color: white;
 }
 
 .button1:hover {
-  background-color: #5f7261;
-  border: 2px solid #5f7261;
+  background-color: hsl(127deg, 9%, 41%);
+  border: 2px solid hsl(127deg, 9%, 41%);
   color: white;
   transition: 0.12s ease-in-out;
 }
 
 .button2:hover {
   background-color: white;
-  border: 2px solid #5f7261;
-  color: #5f7261;
+  border: 2px solid hsl(127deg, 9%, 41%);
+  color: hsl(127deg, 9%, 41%);
   transition: 0.2s ease-in-out;
 }
-/*# sourceMappingURL=style.css.map */
+
+.low {
+  background-color: hsl(127deg, 9%, 41%);
+}/*# sourceMappingURL=style.css.map */
