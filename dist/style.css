@@ -92,6 +92,7 @@ Button {
 .button2 {
   background-color: hsl(127deg, 9%, 41%);
   border: 2px solid hsl(127deg, 9%, 41%);
+  padding: 10px 35px;
   color: white;
 }
 
