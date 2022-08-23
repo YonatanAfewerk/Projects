@@ -9,6 +9,13 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./images/mainLogo.png">
     <title>ቤተ መጻሕፍት</title>
     <link rel="stylesheet" href="./app/scss/style.css">
+
+    <style>
+        .lin_home {
+            font-weight: bold;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -18,6 +25,12 @@
         <nav class="flex flex-jc-sb flex-ai-c">
             <p class="logo">ቤተ <span class="lo">መጻሕፍት</span> </p>
 
+            <div class="links">
+                <a class="lin_home" style="color: green;" href="./index.html">Home</a>
+                <a class="lin_" href="./student.html">Student</a>
+                <a class="lin_" href="./staff.html">Staff</a>
+                <a class="lin_" href="https://t.me/Toyxna">Contact</a>
+            </div>
 
         </nav>
 
@@ -26,25 +39,58 @@
 
         <!-- Hero section -->
     <div class="hero">
-        <p class="Title"> <span  class="wo">L</span>ibrary <span  class="wo">M</span>anagement <span class="wo">S</span>ystem </p>
-        <h4 class="container"> A simple project based on Library Management System that uses Html, Css, Javascript for Front-end <br> with Python Django Web Framework and MySql database on the Back-end.
-        </h4>
 
-        <div class="Button">
-            <div class="buttons">
-                <button class="button1" onclick="window.location.href='./student.html'">Student</button>
-                <button class="button2" onclick="window.location.href='./staff.html'"> Staff </button>
+        <div class="box">
+            <div class="first">
+                <div class="words">
+                     <p class="Title"> <span  class="wo">L</span>ibrary <span  class="wo">M</span>anagement <span class="wo">S</span>ystem </p>
+                <h4 class="container_"> A simple project based on Library Management System that uses Html, Css, Javascript for Front-end <br> with Python's Django Web Framework and MySql database on the Back-end.
+                </h4>
+        
+                </div>
+               
+                <div class="Button">
+                    <div class="buttons">
+                        <button class="button1" onclick="window.location.href='./student.html'">Student</button>
+                        <button class="button2" onclick="window.location.href='./staff.html'"> Staff </button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="second">
+                <div class="img">
+                    <img src="./images/hero/HOW-DO-YOU-MANAGE-A-LIBRARY-min.png" alt="">
+                </div>
             </div>
         </div>
+    </div>
 
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="contacts">
+                <div class="title">Contact Us</div>
+                <div class="links_footer">
+                    <a class="lin_"" href="./index.html">Home</a>
+                    <a class="lin_" href="./student.html">Student</a>
+                    <a class="lin_" href="./staff.html">Staff</a>
+                    <a class="lin_" href="https://t.me/Toyxna">Contact</a>                    
+                </div>
+
+                <div class="note">
+                     <h4 class="container_"> A simple project based on Library Management System <br>  that uses Html, Css, Javascript for Front-end <br> 
+                    with Python's Django Web Framework <br>  and MySql database on the Back-end.
+ 
+                </div>
+
+              
+            </div>
+
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="792" height="406" id="gmap_canvas" src="https://maps.google.com/maps?q=Ethiopia&t=&z=7&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:406px;width:792px;}</style><a href="https://www.embedgooglemap.net">google maps for website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:406px;width:792px;}</style></div></div>
+        </div>
     </div>
 
 
-
-
-
-    <!-- <div class="low">
-    </div> -->
 
     <script src="./app/Js/script.js"></script>
 </body>

@@ -35,6 +35,12 @@ body {
   padding: 10px;
 }
 
+.header {
+  border: 1px dashed green;
+  margin: 10px;
+  padding: 5px;
+}
+
 .logo {
   font-weight: bold;
   font-size: 25px;
@@ -43,7 +49,7 @@ body {
 }
 
 .lo {
-  font-size: 20px;
+  font-size: 21px;
   border-radius: 3px;
   padding: 1px 4px 1px 3.5px;
   background-color: hsl(134deg, 12%, 49%);
@@ -53,13 +59,29 @@ body {
 .links {
   padding: 5px 90px;
 }
+.links a {
+  padding: 2px 5px;
+  text-decoration: none;
+  color: orange;
+  font-weight: regular;
+  margin: 10px 10px;
+  font-size: 13px;
+  transition: 0.05s ease-in-out;
+}
+.links a:hover {
+  color: green;
+  font-weight: bold;
+}
 
 .lol {
   font-size: 14px;
 }
 
 .hero {
+  border: 1px dashed green;
   text-align: center;
+  padding: 5px;
+  margin: 10px;
 }
 
 .Title {
@@ -79,10 +101,8 @@ h4 {
 
 Button {
   box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.29);
-  margin: 20px;
   cursor: pointer;
   padding: 10px 24px;
-  margin: 34px 5px;
   text-transform: uppercase;
   font-size: 12px;
 }
@@ -91,6 +111,7 @@ Button {
   background-color: white;
   border: 2px solid hsl(127deg, 9%, 41%);
   color: hsl(127deg, 9%, 41%);
+  margin-right: 15px;
 }
 
 .button2 {
@@ -114,6 +135,65 @@ Button {
   transition: 0.2s ease-in-out;
 }
 
-.low {
+.box {
+  border: 1px dashed orange;
+  margin: 10px 10px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box .first, .box .second {
+  border: 1px dashed orange;
+  margin: 10px 10px;
+  padding: 15px;
+}
+.box .words {
+  border: 1px dashed green;
+  width: 302px;
+  margin-bottom: 10px;
+}
+
+.img img {
+  width: 500px;
+}
+
+.container {
   background-color: hsl(127deg, 9%, 41%);
+  border: 1px dashed orange;
+  display: flex;
+  justify-content: space-between;
+}
+.container .contacts {
+  border: 1px dashed orange;
+  display: inline-block;
+  margin: 25px;
+  padding: 25px;
+}
+.container .contacts .title {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.container .contacts .links_footer {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.container .contacts .links_footer .lin_ {
+  text-decoration: none;
+  color: orange;
+  padding: 5px 0;
+  font-size: 12px;
+}
+.container .contacts .container_ {
+  margin: 25px -15px;
+  color: white;
+}
+.container .mapouter {
+  border: 1px dashed orange;
+}
+
+.footer {
+  margin-top: 200px;
 }/*# sourceMappingURL=style.css.map */
