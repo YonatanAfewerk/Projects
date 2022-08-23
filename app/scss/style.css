@@ -43,14 +43,19 @@ body {
 }
 
 .lo {
-  font-size: 22px;
+  font-size: 20px;
   border-radius: 3px;
+  padding: 1px 4px 1px 3.5px;
   background-color: hsl(134deg, 12%, 49%);
   color: white;
 }
 
 .links {
   padding: 5px 90px;
+}
+
+.lol {
+  font-size: 14px;
 }
 
 .hero {
@@ -111,12 +116,4 @@ Button {
 
 .low {
   background-color: hsl(127deg, 9%, 41%);
-}
-.lol {
-  font-size: 14px;
-}
-
-
-/*# sourceMappingURL=style.css.map */
-
-
+}/*# sourceMappingURL=style.css.map */
